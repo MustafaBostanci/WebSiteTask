@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c5ed61222e.js" crossorigin="anonymous"></script>
+    <!-- <script src="app.js"></script> -->
 </head>
 
 <body>
@@ -123,29 +124,30 @@
 
 
 
-        <div class="all-cont">
+        <div id="jsallcnt" class="all-cont">
 
 
-
+            <!--
             <div class="main-cont">
                 <div class="image-container"></div>
 
                 <div class="container">
 
-                    <h3>SHOP</h3>
-                    <h4 class="pg5">Nec nam aliquam sem et tort velit
+                    <h3 id="qqq0">SHOP</h3>
+                    <h4 id="jspg0" class="pg5">Nec nam aliquam sem et tort velit
                         aliquet
                         sagittis id consecteturor consequat id porta nibh venenatis cras sed</h4>
 
                     <div class="flex-icons">
-                        <i class="far fa-user"> By Admin</i> &nbsp; | &nbsp;
-                        <i class="far fa-calendar"> May 17.2021</i> &nbsp; | &nbsp;
-                        <i class="far fa-heart"> 45 Likes</i> &nbsp; | &nbsp;
-                        <i class="far fa-comment"> 18 Comments</i>
+                        <i id="jsadmin0" class="far fa-user"> By Admin</i> &nbsp; | &nbsp;
+                        <i id="jsdate0" class="far fa-calendar"> May 17.2021</i> &nbsp; | &nbsp;
+                        <i id="jslike0" class="far fa-heart"> 45 Likes</i> &nbsp; | &nbsp;
+                        <i id="jscom0" class="far fa-comment"> 18 Comments</i>
 
                     </div>
                     <div class="par">
-                        <p class="pg6">Eu turpis egestas pretium aenean pharetra magna ac. Facilisi morbi tempus iaculis
+                        <p id="jsbody0" class="pg6">Eu turpis egestas pretium aenean pharetra magna ac. Facilisi morbi
+                            tempus iaculis
                             urna id
                             volutpat lacus laoreet non. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
                             vitae.
@@ -198,20 +200,21 @@
 
                 <div class="container">
 
-                    <h3>MACHINE</h3>
-                    <h4 class="pg5">Nec nam aliquam sem et tort velit
+                    <h3 id='qqq1'>MACHINE</h3>
+                    <h4 id="jspg1" class="pg5">Nec nam aliquam sem et tort velit
                         aliquet
                         sagittis id consecteturor consequat id porta nibh venenatis cras sed</h4>
 
                     <div class="flex-icons">
-                        <i class="far fa-user"> By Admin</i> &nbsp; | &nbsp;
-                        <i class="far fa-calendar"> May 17.2021</i> &nbsp; | &nbsp;
-                        <i class="far fa-heart"> 45 Likes</i> &nbsp; | &nbsp;
-                        <i class="far fa-comment"> 18 Comments</i>
+                        <i id="jsadmin1" class="far fa-user"> By Admin</i> &nbsp; | &nbsp;
+                        <i id="jsdate1" class="far fa-calendar"> May 17.2021</i> &nbsp; | &nbsp;
+                        <i id="jslike1" class="far fa-heart"> 45 Likes</i> &nbsp; | &nbsp;
+                        <i id="jscom1" class="far fa-comment"> 18 Comments</i>
 
                     </div>
 
-                    <p class="pg6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <p id="jsbody1" class="pg6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
                         incididunt
                         ut
                         labore et
@@ -275,20 +278,21 @@
 
                 <div class="container">
 
-                    <h3>WORKER</h3>
-                    <h4 class="pg5">Nec nam aliquam sem et tort velit
+                    <h3 id='qqq2'>WORKER</h3>
+                    <h4 id="jspg2" class="pg5">Nec nam aliquam sem et tort velit
                         aliquet
                         sagittis id consecteturor consequat id porta nibh venenatis cras sed </h4>
 
                     <div class="flex-icons">
-                        <i class="far fa-user"> By Admin</i> &nbsp; | &nbsp;
-                        <i class="far fa-calendar"> May 17.2021</i> &nbsp; | &nbsp;
-                        <i class="far fa-heart"> 45 Likes</i> &nbsp; | &nbsp;
-                        <i class="far fa-comment"> 18 Comments</i>
+                        <i id="jsadmin2" class="far fa-user"> By Admin</i> &nbsp; | &nbsp;
+                        <i id="jsdate2" class="far fa-calendar"> May 17.2021</i> &nbsp; | &nbsp;
+                        <i id="jslike2" class="far fa-heart"> 45 Likes</i> &nbsp; | &nbsp;
+                        <i id="jscom2" class="far fa-comment"> 18 Comments</i>
 
                     </div>
 
-                    <p class="pg6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <p id="jsbody2" class="pg6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
                         incididunt
                         ut
                         labore et
@@ -320,13 +324,11 @@
 
 
             <br>
-            <br>
+            <br> 
 
 
 
-
-
-
+-->
 
         </div>
 
@@ -695,7 +697,7 @@
     </div>
 
 
-    <script>
+    <script type="text/javascript">
         function myFunction() {
             var x = document.getElementById("myLinks");
             if (x.style.display === "block") {
@@ -719,11 +721,106 @@
 
 
 
+
+
+        const post1 = [{
+
+
+            title: 'SHOP',
+            subject: 'Nec nam aliquam sem et tort velita liquet sagittis id consecteturor consequat id porta nibh venenatis cras sed',
+            by: 'Admin',
+            date: 'May 07/21',
+            likes: '44 likes',
+            comments: '12 comments',
+            body: 'aaaaaaaaaaaa'
+
+
+        }, {
+
+
+            title: '222222',
+            subject: '222222222222222222222222222222222222',
+            by: '222222222222222',
+            date: 'May 222222222',
+            likes: '22222222222222222222',
+            comments: '222222',
+            body: '22222222222222222222222222222222222222222222222222222222222'
+
+
+        }, {
+
+            title: '333333333',
+            subject: '3333333333333333333333333333333333333',
+            by: '3333333333333333',
+            date: 'May 33333333',
+            likes: '333333',
+            comments: '3333333',
+            body: '333333333333333333333333333333333333333333333333333333333333'
+
+        }];
+
+
+        const allCont = document.getElementById('jsallcnt');
+        let mainCont = '';
+
+
+        for (let i = 0; i < post1.length; i++) {
+
+            //     document.getElementById(`qqq${i}`).innerHTML = post1[i].title;
+            //     document.getElementById(`jspg${i}`).innerHTML = post1[i].subject;
+            //     document.getElementById(`jsadmin${i}`).innerHTML = post1[i].by;
+            //     document.getElementById(`jsdate${i}`).innerHTML = post1[i].date;
+            //     document.getElementById(`jslike${i}`).innerHTML = post1[i].likes;
+            //     document.getElementById(`jscom${i}`).innerHTML = post1[i].comments;
+            //     document.getElementById(`jsbody${i}`).innerHTML = post1[i].body;
+
+
+
+            mainCont += '<div id="jscn" class="main-cont"> <div class="image-container"></div> <div class="container">   <h3 id="qqq0">' + post1[i].title +
+                '</h3> <h4 id="jspg0" class="pg5">' + post1[i].subject +
+                '</h4>   <div class="flex-icons">  <i id="jsadmin0" class="far fa-user"> ' + post1[i].by +
+                '</i> &nbsp; | &nbsp; <i id="jsdate0" class="far fa-calendar"> ' + post1[i].date + '</i> &nbsp; | &nbsp; <i id="jslike0" class="far fa-heart">' + post1[i].likes +
+                '</i> &nbsp; | &nbsp; <i id="jscom0" class="far fa-comment"> ' + post1[i].comments + '</i>  </div> <div class="par">  <p id="jsbody0" class="pg6">' + post1[i].body +
+                '</p> </div> <br /> <br /> <div> <a href="" class="button3">READ MORE</a> </div>  </div> </div> <br /> <br /> <br /> <br /> <br /> <br />';
+
+            // <div id="jscn" class="main-cont">
+            //     <div class="image-container"></div>
+
+            //     <div class="container">
+
+            //         <h3 id="qqq0">{post1[i].title}</h3>
+            //         <h4 id="jspg0" class="pg5">{post1[i].subject}</h4>
+
+            //         <div class="flex-icons">
+            //             <i id="jsadmin0" class="far fa-user"> {post1[i].by}</i> &nbsp; | &nbsp;
+            //             <i id="jsdate0" class="far fa-calendar"> {post1[i].date}</i> &nbsp; | &nbsp;
+            //             <i id="jslike0" class="far fa-heart">{post1[i].likes}</i> &nbsp; | &nbsp;
+            //             <i id="jscom0" class="far fa-comment"> {post1[i].comments}</i>
+
+            //         </div>
+            //         <div class="par">
+            //             <p id="jsbody0" class="pg6">{post1[i].body}
+
+            //             </p>
+            //         </div>
+
+            //         <br />
+            //         <br />
+
+            //         <div>
+            //             <a href="" class="button3">READ MORE</a>
+            //         </div>
+
+
+            //     </div>
+            // </div>
+        }
+
+        allCont.innerHTML = mainCont;
+
+
     </script>
 
-
-
 </body>
-
 
 </html>
