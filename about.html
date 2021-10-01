@@ -44,6 +44,26 @@
             <!-- <button onclick="dfun()">Switch to dark mode</button> -->
 
         </div>
+
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+
+            <div class="notii">
+
+
+                <a href="#">Notification</a>
+                <a href="#">Notification</a>
+                <a href="#">Notification</a>
+                <a href="#">Notification</a>
+
+            </div>
+        </div>
+
+
+
+        <span class="notificat" onclick="openNav()"><i class="far fa-bell"></i></span>
     </div>
 
 
@@ -198,6 +218,15 @@
 
 
             // }
+
+
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
 
 
 
